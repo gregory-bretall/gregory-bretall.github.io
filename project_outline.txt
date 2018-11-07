@@ -1,0 +1,9 @@
+The plan for the project is to pull in Pull Request data over a user specified length of time and then make a connected graph of it.
+
+The UI of the graph would be circles based on module with sizes related to number of commits in that node made during the specified time period
+
+The next stage would be to allow the nodes to be expanded further and further until you get to the individual file level for a given module
+
+at this level, nodes be linked out to the PR they are representing
+
+I think some way to also correlate time might be useful but as I'm envisioning the graph currently I'm really not sure how to implement that.
