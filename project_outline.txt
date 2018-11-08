@@ -7,3 +7,8 @@ The next stage would be to allow the nodes to be expanded further and further un
 at this level, nodes be linked out to the PR they are representing
 
 I think some way to also correlate time might be useful but as I'm envisioning the graph currently I'm really not sure how to implement that.
+
+Look into git-log-to-json so we can get file locations and such wrapped up into JSON attributes. From there I can start toying with ways to arrange the actual graph nodes, not sure how doable that is in base d3
+
+So the current tutorial seems to be a bit closer to what I actually want to do (force directed graph of some sort) 
+Currently still having some trouble pulling in the data, might need to modify my function for pullng the data again but that's something I can look into more tomorrow

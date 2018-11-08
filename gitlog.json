@@ -1,0 +1,133 @@
+[
+{
+  "commit": "5fea897a9aa58293159419441ee0adca5a59b2b5",
+  "author": "hugo.huijser@liferay.com",
+  "date": "2018-10-31T08:36:46+08:00",
+  "message":"LPS-86806 Add parsing logic",
+  "stat": {
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/util/DetailASTUtil.java":[65,0],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/util/JavaParserUtil.java":[908,0],
+    "": null
+  }
+},
+{
+  "commit": "d5fc6ed9e69c5e8e95c90e12118683982c9d84d1",
+  "author": "hugo.huijser@liferay.com",
+  "date": "2018-10-31T08:35:26+08:00",
+  "message":"LPS-86806 Add dependencies",
+  "stat": {
+    "modules/util/portal-tools-java-parser/build.gradle":[4,0],
+    "": null
+  }
+},
+{
+  "commit": "3fdce53ebd7d240f41f8d257fc05e03d292289a9",
+  "author": "alejandro.tardin@liferay.com",
+  "date": "2018-10-30T08:26:32+01:00",
+  "message":"LPS-86796 Creating an asset renderer for the root folder",
+  "stat": {
+    "modules/apps/bookmarks/bookmarks-web/src/main/java/com/liferay/bookmarks/web/internal/asset/BookmarksFolderAssetRendererFactory.java":[11,2],
+    "modules/apps/bookmarks/bookmarks-web/src/main/java/com/liferay/bookmarks/web/internal/asset/BookmarksRootFolderAssetRenderer.java":[114,0],
+    "": null
+  }
+},
+{
+  "commit": "b081b063ce16c0e698e885fea2f9a167f9485f8a",
+  "author": "eduardo.garcia@liferay.com",
+  "date": "2018-10-30T16:42:15-07:00",
+  "message":"LPS-86832 Use String.format in tests only",
+  "stat": {
+    "modules/apps/segments/segments-service/src/main/java/com/liferay/segments/internal/util/SegmentsEntryProviderImpl.java":[9,4],
+    "": null
+  }
+},
+{
+  "commit": "57519670381281babc140b400940f8ccb9fe410a",
+  "author": "eduardo.garcia@liferay.com",
+  "date": "2018-10-30T16:33:07-07:00",
+  "message":"LPS-86832 Move common test logic to test util module",
+  "stat": {
+    "modules/apps/segments/segments-test-util/src/main/java/com/liferay/segments/test/util/SegmentsTestUtil.java":[113,0],
+    "modules/apps/segments/segments-test-util/src/main/resources/com/liferay/segments/test/util/packageinfo":[1,0],
+    "modules/apps/segments/segments-test/build.gradle":[1,0],
+    "modules/apps/segments/segments-test/src/testIntegration/java/com/liferay/segments/provider/test/SegmentsEntryProviderTest.java":[13,31],
+    "modules/apps/segments/segments-test/src/testIntegration/java/com/liferay/segments/service/test/SegmentsEntryLocalServiceTest.java":[15,39],
+    "modules/apps/segments/segments-test/src/testIntegration/java/com/liferay/segments/service/test/SegmentsEntryRelLocalServiceTest.java":[13,27],
+    "modules/apps/segments/segments-test/src/testIntegration/java/com/liferay/segments/service/test/SegmentsEntryServiceTest.java":[45,65],
+    "": null
+  }
+},
+{
+  "commit": "de85808176a18960f9e989908f3e6ca5371041b6",
+  "author": "eduardo.garcia@liferay.com",
+  "date": "2018-10-30T14:35:19-07:00",
+  "message":"LPS-86832 Add test util module",
+  "stat": {
+    "modules/apps/segments/segments-test-util/.lfrbuild-portal":[0,0],
+    "modules/apps/segments/segments-test-util/bnd.bnd":[4,0],
+    "modules/apps/segments/segments-test-util/build.gradle":[11,0],
+    "": null
+  }
+},
+{
+  "commit": "bb6351c3ec0139f5ab4b89a3037450394d2b8ce3",
+  "author": "hugo.huijser@liferay.com",
+  "date": "2018-10-31T07:31:40+08:00",
+  "message":"LPS-86806 Rename vars and methods",
+  "stat": {
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaAnnotation.java":[7,7],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaAnnotationMemberValuePair.java":[3,3],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaArray.java":[4,3],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaArrayDeclarator.java":[8,6],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaArrayElement.java":[8,6],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaClassCall.java":[8,6],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaConstructor.java":[6,6],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaExpression.java":[6,5],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaIfStatement.java":[5,3],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaInstanceofStatement.java":[6,6],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaLambdaExpression.java":[5,3],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaLambdaParameter.java":[3,3],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaMethod.java":[8,8],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaMethodCall.java":[8,6],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaMethodReference.java":[5,3],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaNewArrayInstantiation.java":[8,6],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaNewClassInstantiation.java":[3,3],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaOperatorExpression.java":[13,9],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaParameter.java":[8,8],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaSignature.java":[16,14],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaSimpleLambdaExpression.java":[1,1],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaTernaryOperator.java":[15,9],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaType.java":[9,9],
+    "modules/util/portal-tools-java-parser/src/main/java/com/liferay/portal/tools/java/parser/JavaTypeCast.java":[6,6],
+    "": null
+  }
+},
+{
+  "commit": "2aea68fe6f9c4bf78bb3499d9b02143507b71f5f",
+  "author": "jonathan.mak@liferay.com",
+  "date": "2018-10-30T16:18:45-07:00",
+  "message":"LPS-86164 - Updating Alloy 3.1.x to defe73be7a574946113cf0ba72ce24a87de51d94",
+  "stat": {
+    "modules/apps/frontend-js/frontend-js-aui-web/build.gradle":[1,1],
+    "modules/apps/frontend-theme/frontend-theme-unstyled/build.gradle":[1,1],
+    "": null
+  }
+},
+{
+  "commit": "c99840d3d3dbc39cf75b2a50f85e76715b448d0c",
+  "author": "brian.chiu@liferay.com",
+  "date": "2018-10-30T17:25:15-07:00",
+  "message":"LRQA-44290 Account for renames from LRQA-44473",
+  "stat": {
+    "portal-web/test/functional/com/liferay/portalweb/tests/enduser/wcm/webcontentadministration/cpwebcontent/CPWebcontent.testcase":[4,4],
+    "": null
+  }
+},
+{
+  "commit": "e229b6b2d25a0d4b10a6ff28b1ee449f7aa5c354",
+  "author": "kyle.miho@liferay.com",
+  "date": "2018-10-30T16:18:29-07:00",
+  "message":"LRQA-44290 Create macro to navigate to Site Membership directly",
+  "stat": {
+    "portal-web/test/functional/com/liferay/portalweb/macros/Site.macro":[6,0],
+"":null}}]
